@@ -26,7 +26,7 @@
     flex-direction: column;
     inline-size: 100%;
     padding-block-end: 15rem;
-    clip-path: ellipse(100rem 26rem at top);
+    clip-path: ellipse(100rem 35rem at top);
 }
 
 .section--three {
@@ -40,6 +40,7 @@
     display: flex;
     gap: 2rem;
     justify-content: space-around;
+    margin-block: 5rem;
 }
 
 @media screen and (max-width: 60rem ) {
@@ -55,7 +56,7 @@
         text-align: start;
     }
     .section--two {
-        clip-path: ellipse(90rem 35rem at top);
+        clip-path: ellipse(90rem 45rem at top);
     }
 
     .section--three {
@@ -71,7 +72,7 @@
     }
 
     .section--two {
-        clip-path: ellipse(90rem 55rem at top);
+        clip-path: ellipse(90rem 65rem at top);
     }
 
     .section--three {
