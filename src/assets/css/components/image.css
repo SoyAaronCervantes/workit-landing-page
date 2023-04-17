@@ -1,0 +1,30 @@
+.image--hero {
+    inline-size: 55dvw;
+    z-index: 2;
+}
+
+.image--hero--hidden {
+    visibility: hidden;
+}
+
+.image--profile {
+    inline-size: 25rem;
+}
+
+@media screen and (max-width: 60rem ) {
+    .image--hero {
+        inline-size: 30rem;
+    }
+}
+
+@media screen and (max-width: 57rem) {
+    .image--profile {
+        inline-size: 15rem;
+    }
+}
+
+@media screen and (max-width: 35rem) {
+    .image--hero {
+        inline-size: 20rem;
+    }
+}
